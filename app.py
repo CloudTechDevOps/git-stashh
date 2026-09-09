@@ -3,7 +3,7 @@ name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 
 # Check the voting eligibility condition
-if age >= 50:
+if age >= 100:
     print(f"Hello {name}! You are eligible to vote.")
 else:
     years_left = 50 - age
